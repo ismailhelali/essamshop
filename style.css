@@ -74,7 +74,7 @@ main {
 }
 
 .products {
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 .product-grid {
@@ -109,7 +109,7 @@ main {
 
 .button {
   position: absolute; /* set position of the button to absolute */
-  bottom: 3px; /* set the distance from the bottom of the container */
+  bottom: 4px; /* set the distance from the bottom of the container */
   left: 50%; /* center the button horizontally */
   transform: translateX(-50%); /* adjust horizontally to center the button */
 }
