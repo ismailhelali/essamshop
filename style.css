@@ -61,7 +61,7 @@ main {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	color: #fff;
+	color: black;
 	padding: 100px;
 	display: flex;
 	flex-direction: column;
@@ -99,6 +99,9 @@ main {
 	margin-bottom: 10px;
 }
 
+.product-item button {
+	margin-bottom: 2px;
+}
 /* Footer styles */
 footer {
 	background-color: #333;
