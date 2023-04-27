@@ -117,3 +117,23 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+  cursor: pointer;
+}
+
