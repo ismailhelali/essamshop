@@ -99,8 +99,16 @@ main {
 	margin-bottom: 10px;
 }
 
-.product-item a {
-	margin-bottom: 2px;
+.product-item {
+  position: relative; /* set position of the container to relative */
+  display: inline-block; /* set display to inline-block for proper positioning */
+}
+
+.button {
+  position: absolute; /* set position of the button to absolute */
+  bottom: 3px; /* set the distance from the bottom of the container */
+  left: 50%; /* center the button horizontally */
+  transform: translateX(-50%); /* adjust horizontally to center the button */
 }
 /* Footer styles */
 footer {
